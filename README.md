@@ -1,4 +1,4 @@
-# club-course
+# course
 社課資訊
 
 ## 大開源計劃 - 社課
