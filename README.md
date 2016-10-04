@@ -1,5 +1,6 @@
 # course
 社課資訊
+https://elantris.github.io/course/
 
 ## 大開源計劃 - 社課
 

@@ -13,9 +13,7 @@ body {
 }
 
 header,
-section,
-.block-left,
-.block-right {
+section {
 	margin-bottom: 64px;
 }
 
@@ -25,6 +23,8 @@ header {
 
 section,
 footer {
+	// overflow: auto;
+	overflow: hidden;
 	clear: both;
 	float: none;
 }
@@ -56,6 +56,14 @@ section > *:last-child,
 .block-left > *:last-child,
 .block-right > *:last-child {
 	margin-bottom: 0;
+}
+
+.no-type {
+	list-style-type: none;
+}
+
+code {
+	background: #eee;
 }
 
 
