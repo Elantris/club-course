@@ -9,7 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="大開源計劃 - Elantris">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="Node.js / Build System / React.js / JavaScript Plugins">
 	<meta property="og:url" content="https://elantris.github.io/club-course">
 	<!-- GA -->
 	<script>
@@ -18,8 +17,7 @@
 		i[r] = i[r] || function() {
 			(i[r].q = i[r].q || []).push(arguments)
 		}, i[r].l = 1 * new Date();
-		a = s.createElement(o),
-			m = s.getElementsByTagName(o)[0];
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
@@ -59,7 +57,7 @@
 			<div class="block-left">
 				<h2>Node.js</h2>
 				<p>過去 JavaScript 只能在瀏覽器中執行基本數值運算、處理資料結構、操作 DOM、發送 HTTP 請求等基本功能，讓網頁跟使用者的互動更直觀、更多元，同時也減少使用伺服器的運算資源。</p>
-				<p>如今 <a href="https://nodejs.org/en/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Node.js')">Node.js</a> 提供了 JavaScript 另一個伸展的舞台，實現了高度模組化的開發模式，又與作業系統緊密的結合讓開發者可以使用 JS 操作檔案結構、執行程序、連線處理等功能，讓開發者可以架小型伺服器、使用前端工具簡化開發過程的負擔。</p>
+				<p>如今 <a href="https://nodejs.org/en/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Node.js')">Node.js</a> 提供了 JavaScript 另一個伸展的舞台，搭配 <a href="https://www.npmjs.com" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'NPM')">NPM</a> 實現了高度模組化的開發模式，又與作業系統緊密的結合只要使用 JS 語法就能操作檔案結構、執行程序、連線處理等功能，讓開發者可以架小型伺服器、使用前端工具簡化開發過程的負擔。</p>
 				<p>這門課將會帶來「如何正確且乾淨地安裝 Node.js 並可以持續更新到最新版本」、「開發 Node.js 專案的必備知識」。</p>
 				<h2>Build System</h2>
 				<p>現代瀏覽器根據 <a href="https://www.w3.org/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'W3C')">W3C</a> 所制定的標準去實作網頁中 HTML/CSS/JS 的表現，隨著時代的演進，很多網頁上的功能往往需要反覆組合這些原生的語法才能實現，使得程式碼變得非常複雜、難以維護。</p>
@@ -67,20 +65,26 @@
 				<p>這門課會簡單介紹 <a href="https://pugjs.org/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Pug')">Pug</a>, <a href="http://sass-lang.com/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Sass')">Sass</a>, <a href="https://facebook.github.io/react/docs/jsx-in-depth.html" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'JSX in Depth')">JSX</a> 三種語言，並且透過 <a href="http://gulpjs.com/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Gulp')">Gulp</a> 自動化部屬工具串連各個前端工具。</p>
 			</div>
 			<div class="block-right text-right">
-				<h2>社課時間</h2>
-				<ul class="no-type">
+				<h2>時間地點</h2>
+				<ul class="list-unstyle">
 					<li>20161011</li>
+					<li>18:30 - 21:30</li>
 					<li>交通大學</li>
+					<li>工程三館 EC115</li>
+					<li><a href="https://www.facebook.com/NCTUNBA/photos/a.175440512889726.1073741828.144456252654819/194850034282107/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'NCTU FB POST')"><i class="fa fa-external-link"></i></a></li>
 					<li>20161012</li>
+					<li>19:30 - 21:30</li>
 					<li>中央大學</li>
+					<li>志希館 I210</li>
+					<li><a href="https://www.facebook.com/NCUNOS/posts/614863225359966" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'NCU FB POST')"><i class="fa fa-external-link"></i></a></li>
 				</ul>
 				<h2>課前準備</h2>
-				<ul class="no-type">
+				<ul class="list-unstyle">
 					<li>熟悉 HTML/CSS 語法</li>
 					<li>熟悉 JavaScript 語法</li>
 				</ul>
 				<h2>課程資源</h2>
-				<ul class="no-type">
+				<ul class="list-unstyle">
 					<li>講義</li>
 					<li>投影片</li>
 				</ul>
@@ -88,27 +92,27 @@
 		</section>
 		<section>
 			<h1>第二堂社課</h1>
-			<p>前端框架與 JS 套件</p>
+			<p>使用前端框架與組合 JS 套件</p>
 			<div class="block-left">
 				<h2>React.js</h2>
-				<p>由 <a href="https://code.facebook.com/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Facebook Code')">Facebook</a> 所開發、維護並開源釋出的一套前端框架，其概念將網頁上出現的每一個 UI 元件變成獨立的模組，讓網頁前端工程師更容易維護每一個元件在使用者操作下的行為。</p>
+				<p>由 <a href="https://code.facebook.com/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Facebook Code')">Facebook</a> 所開發、維護並開源釋出的一套前端框架，其概念是期望將網頁上出現的每一個 UI 元件變成獨立的模組，讓網頁前端工程師更容易維護每一個元件在使用者操作下的行為，並且將這些元件組裝成一個網頁應用程式。</p>
 				<p>學完 <a href="https://facebook.github.io/react/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'React')">React</a> 的概念之後還可以透過 <a href="https://facebook.github.io/react-native/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'React Native')">React Native</a> 撰寫手機應用程式並發佈到 App Store 或 Google Play 平台上提供其他使用者下載。</p>
-				<p>React 衍伸的開發生態也非常活躍，包含負責資料管理的 <a href="https://facebook.github.io/flux/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Flux')">Flux</a>, <a href="https://github.com/reflux/refluxjs" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Reflux')">Reflux</a>, <a href="https://github.com/reactjs/redux" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Redux')">Redux</a> 等套件、定義路徑的 <a href="https://github.com/ReactTraining/react-router" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'React Router')">React Router</a> 或是其他以 <code>react-</code> 開頭的 Plugins 都可以在這個框架下展現各自的實用性。</p>
+				<p>React 衍伸的開發生態也非常活躍，包含負責資料管理的 <a href="https://facebook.github.io/flux/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Flux')">Flux</a>, <a href="https://github.com/reflux/refluxjs" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Reflux')">Reflux</a>, <a href="https://github.com/reactjs/redux" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'Redux')">Redux</a> 等套件、定義路徑的 <a href="https://github.com/ReactTraining/react-router" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'React Router')">React Router</a> 或是其他以 <code>react-</code> 開頭的 Plugins 都可以跟這個框架整合在一起。</p>
 				<h2>JavaScript Plugins</h2>
-				<p>目前網頁瀏覽器提供的功能已經有很多成熟的套件可以直接拿來用，省去前端工程師反覆組合原生瀏覽器 API 的瑣事，讓開發者可以花更多心力處理操作邏輯和各個套件的搭配使用。</p>
-				<p>無論時間操作、資料視覺、資料處理、動畫效果、主題樣式都有相對應的 JS 套件可以使用，有時候相同的主題還會有多個套件彼此競爭、各有各的支持者。</p>
-				<p>這堂課沒有特定的主題，全看當天台下的反應以及我前一天準備時也許有看到的有趣套件。</p>
+				<p>目前網頁瀏覽器提供的功能已經有很多成熟的套件可以直接拿來用，省去前端工程師反覆組合原生瀏覽器 API 的瑣碎細節，讓開發者可以花更多心力處理操作使用者的邏輯與各個套件的搭配使用。</p>
+				<p>無論主題樣式、動畫效果、資料視覺、時間操作、資料處理都有相對應的 JS 套件可以使用，有時候相同的功能還會有多個套件同時存在、彼此競爭，各有各的支持者。</p>
+				<p>這堂課沒有特定的主題，全看當天台下的反應或是我在準備期間看到的有趣套件都有可能成為範例。</p>
 			</div>
 			<div class="block-right text-right">
-				<h2>社課時間</h2>
-				<ul class="no-type">
+				<h2>時間地點</h2>
+				<ul class="list-unstyle">
 					<li>20161018</li>
 					<li>交通大學</li>
 					<li>20161019</li>
 					<li>中央大學</li>
 				</ul>
 				<h2>課前準備</h2>
-				<ul class="no-type">
+				<ul class="list-unstyle">
 					<li>熟悉 HTML/CSS 語法</li>
 					<li>熟悉 JavaScript 語法</li>
 					<li>Node.js</li>
@@ -116,7 +120,7 @@
 					<li>找個想做的專案主題</li>
 				</ul>
 				<h2>課程資源</h2>
-				<ul class="no-type">
+				<ul class="list-unstyle">
 					<li>講義</li>
 					<li>投影片</li>
 				</ul>
@@ -124,9 +128,10 @@
 		</section>
 		<!-- Footer -->
 		<footer>
-			<p><a href="https://ntuosc.org/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'NCUNOS')">NTUOSC</a> | <a href="https://github.com/Elantris" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'GitHub Elantris')"><i class="fa fa-github"></i> Elantris</a> | <a href="https://github.com/elantris/course" onclick="ga('send', 'event', 'Links', 'to', 'GitHub Course')">Course</a></p>
+			<p><a href="https://ntuosc.org/" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'NCUNOS')">NTUOSC</a> | <a href="https://github.com/Elantris" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'GitHub Elantris')"><i class="fa fa-github"></i> Elantris</a> | <a href="https://github.com/elantris/course" target="_blank" onclick="ga('send', 'event', 'Links', 'to', 'GitHub Course')">Course</a></p>
 		</footer>
 	</main>
+	<!-- JavaScript course but no JavaScript here. -->
 </body>
 
 </html>
