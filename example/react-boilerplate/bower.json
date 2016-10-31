@@ -1,0 +1,20 @@
+{
+  "name": "react-boilerplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Elantris <j88107333@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "^1.0.1"
+  }
+}
